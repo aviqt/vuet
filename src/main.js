@@ -2,6 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import '@/plugins/element-ui'
+
+
+if(!global.consoleSwitch){
+ //console.log = ()=>{}
+}
 
 Vue.config.productionTip = false
 

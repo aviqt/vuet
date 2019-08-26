@@ -1,0 +1,51 @@
+@import './common.css';
+
+
+html,body{
+  background: #eeeeee;
+}
+
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.box {
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.box .box-head{
+  color: white;
+  background: #8BCA34;
+  line-height: 45px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+.box .box-body{
+  background: #ffffff;
+  padding: 20px;
+}
+
+/*个人信息*/
+.personal-info {
+  text-align: center;
+  height: 160px;
+  padding-top: 10px;
+}
+.personal-info span{
+  display: block;
+  font-size: 20px;
+  line-height: 40px;
+}
+.personal-info .photo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block
+}
+.personal-info .photo img{
+  width: 100%;
+}

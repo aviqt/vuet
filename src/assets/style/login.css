@@ -1,0 +1,99 @@
+@import './common.css';
+
+/*后台登录*/
+.login-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 300px;
+  width: 450px;
+  margin: -150px 0 0 -225px;
+  background: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px 40px;
+}
+.login-box .logo {
+  position: relative;
+}
+.login-box .logo:before {
+  content: '';
+  position: absolute;
+  width: 18%;
+  height: 1px;
+  background: #7ca9f1;
+  left: -10px;
+  top: 50%;
+}
+.login-box .logo:after {
+  content: '';
+  position: absolute;
+  width: 18%;
+  height: 1px;
+  background: #7ca9f1;
+  right: -10px;
+  top: 50%;
+}
+.login-box .title {
+  font-size: 25px;
+  margin-top: 10px;
+  line-height: 30px;
+  color: #2e75fa;
+}
+.login-box .title img{
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.role-title{
+  font-size: 26px;
+  color: #2e75fa;
+  line-height: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.role-title:before {
+  content: '';
+  position: absolute;
+  width: 15%;
+  height: 3px;
+  background: #2e75fa;
+  left: 15%;
+  top: 50%;
+}
+.role-title:after {
+  content: '';
+  position: absolute;
+  width: 15%;
+  height: 3px;
+  background: #2e75fa;
+  right: 15%;
+  top: 50%;
+}
+.login-box .form {
+  text-align: left;
+}
+.login-box .form .form-item{
+  padding-bottom: 15px;
+  position: relative;
+}
+.login-box .form .form-item .iconfont {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  font-size: 25px;
+  color: #cccdd6;
+  z-index: 3;
+}
+.login-box .button {
+  background: #3e75fa;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.login-box .button:hover {
+  background: #5c94fb;
+}

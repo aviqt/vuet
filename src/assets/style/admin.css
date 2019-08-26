@@ -1,0 +1,55 @@
+@import './common.css';
+
+html,body{
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+/*后台管理*/
+.admin-page {
+  padding: 10px 20px;
+}
+.admin-page .top {
+  line-height: 30px;
+}
+.admin-page .top .title {
+  border-left: 5px solid #3393f5;
+  padding-left: 10px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.action-bar {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0;
+  line-height: 30px;
+}
+.action-bar button{
+  float: right;
+  margin-left: 10px;
+}
+.action-bar > span{
+  cursor: pointer;
+  color: #4177ff;
+}
+.action-bar > span:hover{
+  color: #7CA9F1;
+}
+
+.el-table--enable-row-hover .el-table__body tr.hover-row>td {
+  background: initial;
+}
+.el-table--enable-row-hover .el-table__body tr.hover-row:hover>td {
+  background: #f5f7fa;
+}
+
+.filter-box .el-input{
+  width: inherit;
+  margin: 0 10px 5px 0 ;
+}
+.filter-box button{
+  float: inherit;
+  margin-left: 0px;
+}
